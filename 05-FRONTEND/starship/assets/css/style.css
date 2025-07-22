@@ -1,0 +1,181 @@
+*{
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+}
+
+/* LEFT-SIDE BAR */
+#sideBar{
+    background-color: #282930;
+    color: #ffffff;
+}
+#sideBar h1{
+    font-size: 1em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#sideBar img{
+    width: 20px;
+    height: 20px;
+    margin: 25px;
+}
+
+/* RIGHT-MAIN */
+main{
+    background-color: #f7f8fc;
+}
+/* HEADER */
+#headerOverview{
+    font-size: 1.5em;
+}
+
+#headerUsername{
+    font-size: 1em;
+}
+
+#headerDivider{
+    width: 2px;
+    height: 30px;
+}   
+
+.headerImages{
+    width:20px;
+    height: 20px;
+    margin:15px
+}
+
+#headerUsername{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+#headerUserimage{
+    width: 50px;
+    height: 50px;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+}
+
+/* FOUR BLOCK */
+.block{
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 2px solid #a7abbb ;
+    padding: 15px;
+    font-size:2em;
+}
+
+.block h6{
+    font-size: 0.3em;
+    color: #a7abbb;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 576px) {
+.block{
+    margin-bottom: 15px;
+}}
+
+/* MIDDLE SECTION */
+#middleSection{
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #a7abbb ;
+    padding: 15px;
+    margin: 20px;
+}
+
+
+/* GRAPH-LEFT */
+#todayTrends{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+#left p{
+    font-size: 1em;
+    color: #a7abbb;
+}
+
+.divider{
+    width: 35px;
+    height: 5px;
+}
+
+#graph{
+    max-width: 50vw;
+    max-height: 55vh;
+}
+@media screen and (min-width: 576px) {
+    #graph{
+    max-width: 65vw;
+    max-height: 30vh;
+}}
+
+
+
+
+
+/* GRAPH-RIGHT */
+#right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fluid{
+    border-bottom: #e1e3eb 1px solid;
+}
+
+#right p{
+    font-size: 1.3em;
+    color: #a7abbb;
+}
+#right h6{
+    font-size: 1.5em;
+}
+
+/* UNRESOLVED TICKETS */
+#bottomSection{
+    border-radius: 10px;
+    border: 1px solid #a7abbb ;
+    padding: 15px;
+    margin: 20px;
+}
+
+.btn-warning{
+    color: #ffffff;
+}
+
+#bottomSection h2{
+    font-size: 1.2em;
+  
+}
+
+#bottomSection h3{
+    font-size: 1em;
+    color: #3851ff;
+}
+#bottomSection h4{
+    font-size: 0.8em;
+    color: #a7abbb;
+}
+
+#bottomSection h5{
+    font-size: 0.8em;  
+}
+
+#bottomSection p{
+    font-size: 1em;
+    color: #a7abbb;
+}
+
+#plus{
+    width: 2vw;
+    height: auto;
+}

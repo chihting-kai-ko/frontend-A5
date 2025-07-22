@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- BOOTSTRAP CSS STYLE SHEET -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    
+    <!--CSS STYLE SHEET  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    
+    <title>FRONTEND</title>
+</head>
+<body>
+    <div class="row">
+        <div class="col-2" id="sideBar">
+            <!-- SIDEBAR -->
+            <section class="sideBar">
+                <div class="row">
+                    <div class="col-3">
+                        <img id="dashboardKit" src="assets/images/dashboard kit.png" alt="">
+                    </div>
+                    <div class="col-9">
+                        <h1>Dashboard Kit</h1>
+                    </div>
+                </div>
+                 <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-10"></div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <img src="assets/images/overview.png" alt="">
+                    </div>
+                    <div class="col-9">
+                        <h1>Overview</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <img src="assets/images/tickets.png" alt="">
+                    </div>
+                    <div class="col-3">
+                        <h1>Tickets</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <img src="assets/images/ideas.png" alt="">
+                    </div>
+                    <div class="col-9">
+                        <h1>Ideas</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <img src="assets/images/contact.png" alt="">
+                    </div>
+                    <div class="col-9">
+                        <h1>Contacts</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <img src="assets/images/Agents.png" alt="">
+                    </div>
+                    <div class="col-9">
+                        <h1>Agents</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <img src="assets/images/book.png" alt="">
+                    </div>
+                    <div class="col-9">
+                        <h1>Articles</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <img src="assets/images/setting.png" alt="">
+                    </div>
+                    <div class="col-9">
+                        <h1>Settings</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <img src="assets/images/subscription.png" alt="">
+                    </div>
+                    <div class="col-9">
+                        <h1>Subscription</h1>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="col-10">
+            <div class="row">
+            <!-- MAIN SECTION -->
+                <main>
+                    <!-- HEADER -->
+                    <div class="row" id="header">
+                        <div class="col-7" id="headerOverview">Overview</div>
+                        <div class="col-5" id="headerUsername">
+                            <img class="headerImages" src="assets/images/search.png" alt="">
+                            <img class="headerImages" src="assets/images/unread notifications.png" alt=""> 
+                            <img class="headerImages"  id="headerDivider" src="assets/images/ header divider.png" alt="">
+                            <div>Jones Ferdinand</div>
+                            <img class="headerImages" id="headerUserimage" src="assets/images/userimage.png">  
+                            
+                        </div>
+                        <div>
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                    <!-- FOUR BLOCK -->
+                    <div class="container text-center">
+                        <divs class="row">
+                            <div class="col-6 col-md-3 ">
+                                <div class="block">
+                                    <h6>Unresolved</h6>
+                                    <p>60</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3" >
+                                <div class="block">
+                                    <h6>Overdue</h6>
+                                    <p>16</p>
+                                    <!-- <img  id="mouse" src="assets/images/mouse.png" alt=""> -->
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="block">
+                                    <h6>Open</h6>
+                                    <p>43</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="block">
+                                    <h6>On hold</h6>
+                                    <p>64</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- GRAPH -->
+                    <div class="row" id="middleSection">
+                        <!-- GRAPH-LEFT -->
+                        <div class="col col-md-9" id="left">
+                            <div class="container">
+                                <div class="row" id="time-01">
+                                    <div class="col-6 col-md-3" id="todayTrends">Today's trends</div>
+                                </div>
+                                <div class="row" id="time-02">
+                                    <div class="col-12 col-md-8">
+                                        <p>as of 25 May 2019, 09:41 PM</p>
+                                    </div>
+                                    <div class="col col-md-1">
+                                        <img class="divider" src="assets/images/today divider.png" alt="">
+                                    </div>
+                                    <div class="col col-md-1">
+                                        <p>Today</p>
+                                    </div>
+                                    <div class="col col-md-1">
+                                        <img  class="divider" src="assets/images/yesterday divider.png" alt="">
+                                    </div>
+                                    <div class="col col-md-1">
+                                        <p>Yesterday</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <img id="graph"  src="assets/images/graph.png" alt="Graph Image" >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- GRAPH-RIGHT -->
+                        <div class="col col-md-3" id="right">
+                            <div class="container-fluid text-center">
+                                <div class="fluid">
+                                    <div class="col">
+                                        <p>Resolved</p>
+                                        <h6>449</h6>
+                                    </div>
+                                </div>
+                                <div class="fluid">
+                                    <div class="col">
+                                        <p>Received</p>
+                                        <h6>426</h6>
+                                    </div>
+                                </div>
+                                <div class="fluid">
+                                    <div class="col">
+                                        <p>Average first response time</p>
+                                        <h6>33m</h6>
+                                    </div>
+                                </div>
+                                <div class="fluid">
+                                    <div class="col">
+                                        <p>Average response time</p>
+                                        <h6>3h 8m</h6>
+                                    </div>
+                                </div>
+                                    <div class="col">
+                                        <p>Resolution within SLA</p>
+                                        <h6>94%</h6>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" >
+                        <!-- UNRESOLVED TICKETS -->
+                            <div class="col-11 col-md" id="bottomSection" >
+                                <div class="row">
+                                        <div class="col-7">
+                                            <h2>Unresolved tickets</h2>
+                                        </div>
+                                        <div class="col-4">
+                                            <h3>Views details</h3>
+                                        </div> 
+                                </div>
+                                <div class="row">
+                                        <div class="col-1">
+                                            <h4>Group:</h4>
+                                        </div>
+                                        <div class="col-2">
+                                            <h5>Support</h5>
+                                        </div>
+                                </div>
+                                <div class="fluid">
+                                    <div class="row">
+                                        <div class="col-9">
+                                            Waiting on Feature Request
+                                        </div>
+                                        <div class="col-3"> 
+                                            <p>4238</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="fluid">
+                                    <div class="row">
+                                        <div class="col-9">Awaiting Customer Response</div>
+                                        <div class="col-3"> 
+                                            <p>1005</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="fluid">
+                                    <div class="row">
+                                        <div class="col-9">Waiting Developer Fix</div>
+                                        <div class="col-3">
+                                            <p>914</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-9">Pending</div>
+                                    <div class="col-3">
+                                        <p>281</p>
+                                    </div>
+                                </div>
+                            </div> 
+                        <!-- TASKS -->
+                        <div class="col-11 col-md " id="bottomSection">
+                            <div class="row" >
+                                <div class="col-8">
+                                    <h2>Tasks</h2>
+                                </div>
+                                <div class="col-4">
+                                    <h3>Views all</h3>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <h4>Today</h4>
+                                </div>
+                            </div>
+                            <div class="fluid">
+                                <div class="row">
+                                    <div class="col-9">
+                                        <p>Create new task</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <img id="plus" src="assets/images/plus.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fluid">
+                                <div class="row">
+                                    <div class="col-1">
+                                        <img  id="plus" src="assets/images/empty check.png" alt="">
+                                    </div>
+                                    <div class="col-8">Finish ticket update</div>
+                                    <div class="col-3">
+                                        <button type="button" class="btn btn-warning">URGENT</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fluid">
+                                <div class="row">
+                                    <div class="col-1">
+                                        <img  id="plus" src="assets/images/empty check.png" alt="">
+                                    </div>
+                                    <div class="col-8">Create new ticket example</div>
+                                    <div class="col-3">
+                                        <button type="button" class="btn btn-success">NEW</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-1">
+                                    <img id="plus" src="assets/images/blue check.png" alt="">
+                                </div>
+                                <div class="col-8">Update ticket report</div>
+                                <div class="col-3">
+                                    <button type="button" class="btn btn-light">DEFAULT</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+    <!-- BOOTSTRAP JS SCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
